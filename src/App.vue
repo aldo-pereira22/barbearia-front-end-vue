@@ -18,6 +18,7 @@ export default {
     return {
       logo_src: "/img/barbershop.png",
       app_name: "Barber Shop"
+      sas
     }
   } 
 }
