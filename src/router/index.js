@@ -9,12 +9,12 @@ const routes = [
   },{
     path: '/teste',
     Name: 'Teste',
-    component: () => import(/* webpackChunkName: "Agendamento" */ '../views/Teste.vue')
+    component: () => import('../views/Teste.vue')
   },
   {
     path: '/agendamento',
     name: 'Agendamento',
-    component: () => import(/* webpackChunkName: "Agendamento" */ '../views/Agendamento.vue')
+    component: () => import( '../views/Agendamento.vue')
   }
 ]
 

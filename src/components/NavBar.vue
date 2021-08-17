@@ -22,7 +22,8 @@ export default {
 <style scoped>
    
    #nav{
-       background-color: #222;
+       /* background-color: #222; */
+       background-color: blue;
        border-bottom: 4px solid #111;
        padding: 15px 50px;
        display: flex;
@@ -43,13 +44,13 @@ export default {
    }
 
    #nav a {
-       color: blueviolet;
+       color: whitesmoke;
        text-decoration: none;
        margin: 12px;
        transition: 0.5;
    }
 
    #nav a:hover{
-       color: #FFF;
+       color: #111;
    }
 </style>

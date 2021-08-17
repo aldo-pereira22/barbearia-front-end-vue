@@ -24,6 +24,16 @@ export default {
 }
 </script>
 <style>
-
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: 10px;
+  }
   
+  .main-container{
+    margin: 50px;
+    min-height: 250px;
+    
+  }
 </style>
